@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>netcoreapp3.1;net472;net6.0;net7.0</TargetFrameworks>
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\BloomFilter.CSRedis\BloomFilter.CSRedis.csproj" />
+		<ProjectReference Include="..\..\src\BloomFilter.FreeRedis\BloomFilter.FreeRedis.csproj" />
+		<ProjectReference Include="..\..\src\BloomFilter.Redis\BloomFilter.Redis.csproj" />
+		<ProjectReference Include="..\..\src\BloomFilter\BloomFilter.csproj" />
+	</ItemGroup>
+
+</Project>

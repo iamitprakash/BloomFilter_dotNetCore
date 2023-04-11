@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = BenchmarkTest
+build_property.ProjectDir = /Users/amitprakash/Downloads/BloomFilter.NetCore-master/test/BenchmarkTest/

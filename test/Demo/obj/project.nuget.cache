@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "H4CvDl3MG3xGXkXqaDNO/YrhqRUtgNlWesXFA8PPq2tkOqHk5wXv5/IgXdxVswQRj8xdTWn9AyRzIVhNB9XnXw==",
+  "success": true,
+  "projectFilePath": "/Users/amitprakash/Downloads/BloomFilter.NetCore-master/test/Demo/Demo.csproj",
+  "expectedPackageFiles": [
+    "/Users/amitprakash/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/amitprakash/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/Users/amitprakash/.nuget/packages/stackexchange.redis/2.6.96/stackexchange.redis.2.6.96.nupkg.sha512",
+    "/Users/amitprakash/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

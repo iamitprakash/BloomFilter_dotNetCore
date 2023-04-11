@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyCaching.CSRedis" Version="1.8.0" />
+    <PackageReference Include="EasyCaching.Serialization.Json" Version="1.8.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BloomFilter.CSRedis\BloomFilter.CSRedis.csproj" />
+    <ProjectReference Include="..\..\src\BloomFilter.EasyCaching\BloomFilter.EasyCaching.csproj" />
+    <ProjectReference Include="..\..\src\BloomFilter.FreeRedis\BloomFilter.FreeRedis.csproj" />
+    <ProjectReference Include="..\..\src\BloomFilter.Redis\BloomFilter.Redis.csproj" />
+  </ItemGroup>
+
+
+	<PropertyGroup>
+
+		<SignAssembly>False</SignAssembly>
+		<DelaySign>False</DelaySign>
+	</PropertyGroup>
+</Project>
